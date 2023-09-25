@@ -1,4 +1,5 @@
-/* root styles 
+/* 
+Root styles 
 */
 
 html {
@@ -11,7 +12,8 @@ body {
     color: hsl(240, 64%, 27%)
 }
 
-/* universal styles
+/* 
+Universal styles
 */
 
 h1 {
@@ -20,3 +22,54 @@ h1 {
     text-align: center;
     line-height: 3;
 }
+
+/*
+ Navigation 
+*/
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.25rem;
+  }
+
+  nav ul {
+    padding: 0.25rem;
+    border-radius: 0.125rem;
+  }
+  
+  nav li {
+    display: inline;
+    text-transform: uppercase;
+    margin-right: 0.5rem;
+    padding: 0.75rem;
+  }
+
+  nav a {
+    text-decoration: none;
+  }
+
+
+
+
+
+
+  
+/*
+Section Footer
+*/
+
+footer {
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  footer p {
+    display: block;
+    text-align: center;
+    padding: 0.3rem;
+    
+  }
