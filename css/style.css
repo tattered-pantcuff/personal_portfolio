@@ -1,0 +1,22 @@
+/* root styles 
+*/
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16;
+}
+
+body {
+    background-color: hsl(0, 0%, 96%);
+    color: hsl(240, 64%, 27%)
+}
+
+/* universal styles
+*/
+
+h1 {
+    font-size: 3rem;
+    font-variant: small-caps;
+    text-align: center;
+    line-height: 3;
+}
