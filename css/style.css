@@ -8,8 +8,11 @@ html {
 }
 
 body {
-    background-color: hsl(0, 0%, 96%);
-    color: hsl(240, 64%, 27%)
+    background-color: hsl(240, 64%, 27%);
+    color: hsl(208, 100%, 97%);
+    background-image: url("../resources/images/IMG_20190407_1450190.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* 
@@ -21,6 +24,9 @@ h1 {
     font-variant: small-caps;
     text-align: center;
     line-height: 3;
+    background-color: hsl(208, 100%, 97%);
+    opacity: 0.5;
+    color: hsl(240, 64%, 27%);
 }
 
 /*
@@ -35,6 +41,7 @@ h1 {
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     padding: 0.25rem;
+    
   }
 
   nav ul {
@@ -47,14 +54,29 @@ h1 {
     text-transform: uppercase;
     margin-right: 0.5rem;
     padding: 0.75rem;
+    
+    
   }
 
   nav a {
     text-decoration: none;
+    color:hsl(208, 100%, 97%);
   }
 
 
+/* main content
+*/
+section {
+  height: 300px;
+  width: 500px;
+  background-color: aliceblue;
+  opacity: 0.5;
+  display: inline-block;
+  color: hsl(240, 64%, 27%);
+  margin-bottom: 30px;
 
+
+}
 
 
 
@@ -69,6 +91,7 @@ footer {
   }
   footer p {
     display: block;
+    
     text-align: center;
     padding: 0.3rem;
     
