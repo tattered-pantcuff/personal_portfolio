@@ -13,6 +13,7 @@ body {
     background-image: url("../resources/images/IMG_20190407_1450190.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+  
 }
 
 /* 
@@ -67,11 +68,12 @@ h1 {
 /* main content
 */
 section {
-  height: 300px;
+  height: 500px;
   width: 500px;
   background-color: aliceblue;
   opacity: 0.5;
   display: inline-block;
+  
   color: hsl(240, 64%, 27%);
   margin-bottom: 30px;
 
