@@ -10,6 +10,8 @@ html {
 body {
     color: hsl(240, 64%, 27%);
     background-color: hsl(208, 100%, 97%);
+    border: 2px solid hsl(240, 64%, 27%);
+    margin: 2px;
     
   
 }
