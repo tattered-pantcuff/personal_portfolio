@@ -9,7 +9,7 @@ html {
 
 body {
     color: hsl(240, 64%, 27%);
-    background-color: hsl(208, 100%, 97%);
+    background-color:  hsl(0, 0%, 96%));
     border: 2px solid hsl(240, 64%, 27%);
     margin: 2px;
     
@@ -68,7 +68,7 @@ h1 {
 /* main content
 */
 section {
-  height: 500px;
+  /*height: 500px;
   width: 500px;
   background-color: aliceblue;
   opacity: 0.5;
@@ -76,7 +76,7 @@ section {
   
   color: hsl(240, 64%, 27%);
   margin-bottom: 30px;
-
+*/
 
 }
 
