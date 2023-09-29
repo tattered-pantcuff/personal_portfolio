@@ -83,10 +83,10 @@ Logo
 #logo img {
   height: 120px;
   width: auto;
-  border-radius: 5px;
+  border-radius: 3px;
   position: relative;
   top: 15px;
-  
+  border: 1px solid lightblue;
   
   
 }
