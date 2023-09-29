@@ -128,8 +128,9 @@ Logo
   }
 
   a:hover {
-    font-size: 1.5rem;
+    /*font-size: 1.5rem;*/
     font-weight: 900;
+    /*background-color: #e68208;*/
   }
 
 
