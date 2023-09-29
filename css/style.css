@@ -9,9 +9,8 @@ html {
 
 body {
     color: hsl(0, 0%, 100%);
-    background-color:  rgb(230, 130, 8);
-    border: 1px solid hsl(0, 0%, 83%);
-    margin: 2px;
+    background-color:  #483C32;
+    
  
 }
 
@@ -33,7 +32,7 @@ h1 {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 1rem;
-    background-color: hsla(54, 80%, 50%, 0.37);
+    background-color: #e68208;
 
     
 
@@ -86,7 +85,7 @@ Logo
   border-radius: 3px;
   position: relative;
   top: 15px;
-  border: 1px solid lightblue;
+  border: 1px solid gainsboro;
   
   
 }
@@ -155,7 +154,7 @@ Logo
   margin: 5px;
 }
 .spacer {
-  color:rgb(230, 130, 8);
+  color:#e68208;
   background-color: white;
   height: 100px;
   
@@ -191,7 +190,7 @@ Section Footer
 footer {
     padding-top: 0.5rem;
     margin-top: 0.5rem;
-    background-color: hsla(54, 80%, 50%, 0.37);
+    background-color: #e68208;
   }
   footer p {
     display: block;
