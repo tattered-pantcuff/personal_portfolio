@@ -11,7 +11,14 @@ body {
     color: hsl(0, 0%, 100%);
     background-color:  #483C32;
     
- 
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /* 
@@ -33,7 +40,9 @@ h1 {
     padding-right: 20px;
     margin-bottom: 1rem;
     background-color: #e68208;
-
+    background: linear-gradient(to right,#e68208, goldenrod);
+    width: 100%;
+    text-shadow: 2px 2px 4px #000000;
     
 
 }
@@ -56,11 +65,10 @@ span {
 
 @media only screen and (max-width: 460px) {
 
-  nav li a {
-    display: block;
+  .navigation {
+    
     text-align: left;
-    margin-right: 1rem;
-    padding: 0.50rem;
+    
     
     
   }
@@ -97,26 +105,30 @@ Logo
 */
 
 .navigation {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    align-content: flex-start;
+    
+    height:  3rem;
     margin-top: 0.5rem;
     margin-bottom: 2rem;
     padding: 0.25rem;
+    text-align: right;
+    
+    
     
   }
 
   nav ul {
+    
     padding: 0.25rem;
     border-radius: 0.125rem;
   }
   
   nav li {
-    display: inline;
+    display: inline-block;
     text-transform: uppercase;
     margin-right: 0.5rem;
     padding: 0.75rem;
+    height: 3rem;
+    
     
     
     
@@ -128,9 +140,9 @@ Logo
   }
 
   a:hover {
-    /*font-size: 1.5rem;*/
+    font-size: 1.5rem;
     font-weight: 900;
-    /*background-color: #e68208;*/
+    
   }
 
 
@@ -186,10 +198,10 @@ works
   margin: 1rem;
 }
 
-/* style container in different flow direction */
+/*what is this class doing???*/
 .row {
-  display: flex;
-  justify-content: space-between;
+  
+  margin: 1rem;
   
 
 }
