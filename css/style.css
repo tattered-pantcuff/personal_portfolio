@@ -85,7 +85,7 @@ Logo
   border-radius: 4px;
   position: relative;
   top: 15px;
-  border: 1px solid gainsboro;
+  border: 1px solid black;
   
   
 }
@@ -102,7 +102,7 @@ Logo
     align-items: center;
     align-content: flex-start;
     margin-top: 0.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     padding: 0.25rem;
     
   }
@@ -125,8 +125,11 @@ Logo
   nav a {
     text-decoration: none;
     color: white;
-    
-    
+  }
+
+  a:hover {
+    font-size: 1.5rem;
+    font-weight: 900;
   }
 
 
@@ -182,6 +185,13 @@ works
   margin: 1rem;
 }
 
+/* style container in different flow direction */
+.row {
+  display: flex;
+  justify-content: space-between;
+  
+
+}
   
 /*
 Section Footer
