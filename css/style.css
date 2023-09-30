@@ -39,8 +39,8 @@ h1 {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 1rem;
-    background-color: #e68208;
-    background: linear-gradient(to right,#e68208, goldenrod);
+    color: white;
+    background-color: #045F5F;
     width: 100%;
     text-shadow: 1px 1px 2px #000000;
     
@@ -151,7 +151,7 @@ Logo
 
 .container {
   margin: 0 auto;
-  
+  padding-bottom: 2rem;
 
 }
 
@@ -167,11 +167,11 @@ Logo
 
 .intro p {
   padding: 10px;
-  margin: 5px;
+  margin: 7px;
 }
 .spacer {
-  color:#e68208;
-  background-color: white;
+  color: white;
+  background-color: #045F5F;
   height: 100px;
   
 }
@@ -211,35 +211,41 @@ works
   
   height: 200px;
   width: 200px;
-  background-color:  #e68208;
+  background-color:  white;
   text-align: center;
   border-radius: 3px;
 
 }
 
+.next-steps {
+  color: black;
+}
+
 .button {
   text-align: center;
   display: inline-block;
-  border: none;
-  background-color: #e68208;
-  color: white;
+  background-color:  #483C32;
+  color:  white;
   padding: 15px 32px;
   position: relative;
   left: 100px;
   top: 5px;
   font-size: 1.75rem;
+  
   border-radius: 3px;
   font-style: oblique;
   cursor: pointer;
+  text-shadow: 1px 1px 2px #000000;
+  border: 1px solid white;
 
 
 }
 
 .button:hover {
   background-color: white;
-  color: black;
+  color:  black;
   border: 1px solid #483C32;
-  text-shadow: 1px 1px 2px #000000;
+  text-shadow: none;
 }
   
 /*
@@ -249,8 +255,10 @@ Section Footer
 footer {
     padding-top: 0.5rem;
     margin-top: 0.5rem;
-    background-color: #e68208;
+    
+    background-color: #045F5F;
   }
+
   footer p {
     display: block;
     font-size: 1rem;
