@@ -208,10 +208,12 @@ works
 }
 
 .cube {
+  
   height: 200px;
   width: 200px;
   background-color:  #e68208;
   text-align: center;
+  border-radius: 3px;
 
 }
 
@@ -228,6 +230,7 @@ works
   font-size: 1.75rem;
   border-radius: 3px;
   font-style: oblique;
+  cursor: pointer;
 
 
 }
