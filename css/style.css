@@ -207,6 +207,14 @@ works
 
 }
 
+.cube {
+  height: 200px;
+  width: 200px;
+  background-color:  #e68208;
+  text-align: center;
+
+}
+
 .button {
   text-align: center;
   display: inline-block;
