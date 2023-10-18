@@ -219,10 +219,12 @@ works
 
 .next-steps {
   color: black;
+  
 }
 
 .next-steps h3 {
   font-variant: small-caps;
+  font-size: 2rem;
 
 
 }
